@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "build",
+    "build": "next build",
     "start": "next start",
     "pages:build": "bunx --bun @cloudflare/next-on-pages"
   },
