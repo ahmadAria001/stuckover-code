@@ -15,6 +15,9 @@ export default function RootLayout({ children }: Props) {
   return (
     <StoreProvider>
       <html lang="en" className="dark">
+	<head>
+	  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+	</head>
         <body className="dark:bg-slate-950">
           <section className={styles.container}>
             <main className={styles.main}>
