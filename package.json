@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "build",
     "start": "next start",
-    "pages:build": "bun @cloudflare/next-on-pages"
+    "pages:build": "bunx --bun @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.1.0",
