@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "bun i && next build",
     "start": "next start"
   },
   "dependencies": {
