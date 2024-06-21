@@ -16,6 +16,8 @@ import { Switch } from "@/components/ui/switch"
 import { env } from "process";
 import Link from "next/link";
 
+export const runtime = 'edge';
+
 const notifications = [
   {
     title: "Turu Is Important",

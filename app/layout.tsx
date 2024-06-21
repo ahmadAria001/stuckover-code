@@ -11,6 +11,7 @@ interface Props {
   readonly children: ReactNode;
 }
 
+export const runtime = 'edge';
 export default function RootLayout({ children }: Props) {  
   return (
     <StoreProvider>

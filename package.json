@@ -2,8 +2,9 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "bun i && next build",
-    "start": "next start"
+    "build": "build",
+    "start": "next start",
+    "pages:build": "bun @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.1.0",
@@ -29,6 +30,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.11.3",
     "@types/node": "20.2.5",
     "@types/react": "18.2.37",
     "@types/react-dom": "^18.2.18",
