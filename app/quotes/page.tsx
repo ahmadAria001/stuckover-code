@@ -1,6 +1,6 @@
 import { Quotes } from "../components/quotes/Quotes";
 
-export const runtime = 'edge';
+export const runtime = "edge";
 export default function QuotesPage() {
   return (
     <>
